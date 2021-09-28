@@ -11,6 +11,7 @@ public class DuplicateString {
         for( char c : string){
             if(ch.add(c)==false){
                 System.out.println(c);
+                //
             }
         }
     }
