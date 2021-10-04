@@ -11,7 +11,7 @@ public class Stream {
         List<Integer> ls = new ArrayList<>();
         ls.add(2);
         ls.add(20);
-        ls.add(30);
+        ls.add(13);
         ls.add(1);
 
         System.out.println("Original List "+ls);
