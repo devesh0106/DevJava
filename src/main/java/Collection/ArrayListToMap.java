@@ -10,8 +10,10 @@ public class ArrayListToMap {
         List<String> ls= new ArrayList<>();
         ls.add("Devesh");
         ls.add("Anand");
-        Map<String,Integer> map = ls.stream().collect(Collectors.toMap(s->s,s->s.length())); 
-        System.out.println("Generated Map" +map);
+
+        Map<String,Integer> map = ls.stream().collect(Collectors.toMap(s->s,s->s.length()));
+        System.out.println("Generated Map  " +map);
+        //System.out.println(map.size());
     }
 
 }
