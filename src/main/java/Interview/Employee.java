@@ -32,7 +32,7 @@ class Employee {
         this.deptName = deptName;
         this.salary = salary;
     }
-}
+ }
 
 class Main {
     public static void main(String[] args) {
