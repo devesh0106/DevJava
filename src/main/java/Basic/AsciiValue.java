@@ -10,6 +10,4 @@ public class AsciiValue {
         int nb= b;
         System.out.println(na +" " + "" +nb);
     }
-
-
 }
