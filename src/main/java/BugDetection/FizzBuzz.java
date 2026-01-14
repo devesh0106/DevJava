@@ -15,12 +15,12 @@ public class FizzBuzz {
     //Bug is actually when i=15 (which is divisible by 3 and 5 both)
     public static void fizzbuzz(){
         for (int i = 1; i <= 100; i++) {
-            if (i % 3 == 0 && i % 5 != 0) {
-                System.out.println("Fizz");
+            if (i % 3 == 0 && i % 5 == 0) { //Rule: Always check the most specific condition first (divisible by both 3 and 5).
+                System.out.println("FizzBuzz");
             } else if (i % 5 == 0) {
                 System.out.println("Buzz");
-            } else if ((i % 3 == 0) && (i % 5 == 0)) {
-                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0)  {
+                System.out.println("Fizz");
             } else {
                 System.out.println(i);
             }

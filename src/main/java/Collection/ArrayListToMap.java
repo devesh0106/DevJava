@@ -13,7 +13,10 @@ public class ArrayListToMap {
 
         Map<String,Integer> map = ls.stream().collect(Collectors.toMap(s->s,s->s.length()));
         System.out.println("Generated Map  " +map);
-        //System.out.println(map.size());
+        System.out.println(map.size());
+        for(Map.Entry<String,Integer> entry : map.entrySet()){
+            System.out.println("Key : "+entry.getKey()+" Value : "+entry.getValue());
+        }
     }
 
 }

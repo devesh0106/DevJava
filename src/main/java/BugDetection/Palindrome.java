@@ -23,6 +23,6 @@ public class Palindrome {
     }
     public static void main(String[] args) {
         Palindrome p= new Palindrome();
-        p.isPalindrome("Devesh");
+        p.isPalindrome("abba");
     }
 }

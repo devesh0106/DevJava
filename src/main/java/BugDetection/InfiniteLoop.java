@@ -7,7 +7,7 @@ public class InfiniteLoop {
 
             System.out.println(i);
             // Bug: Missing increment of 'i'
-
+            //i++;
         }
     }
 }

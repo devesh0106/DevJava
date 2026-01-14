@@ -15,9 +15,9 @@ public class HashMapIteration {
         mp.put("Shama",105);
         mp.put("Shar",106);
         mp.put("Sha",107);
-//        for(Map.Entry<String,Integer> entry : mp.entrySet()){
-//            System.out.println("Keys are "+ entry.getKey() + "Values are "+entry.getValue());
-//        }
+       for(Map.Entry<String,Integer> entry : mp.entrySet()){
+          System.out.println("Keys are "+ entry.getKey() + " Values are "+entry.getValue());
+      }
 
         mp.entrySet().stream().forEach(System.out::println); //Using Stream API
     }

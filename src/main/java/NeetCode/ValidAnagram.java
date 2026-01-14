@@ -22,6 +22,6 @@ public class ValidAnagram {
         return result;
     }
     public static void main(String[] args) {
-        System.out.println(validAnagram("raca","care"));
+        System.out.println(validAnagram("reca","care"));
     }
 }
